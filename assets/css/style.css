@@ -50,3 +50,11 @@ h1 {
   font-size: 40px;
   color: #f1f1f1;
 }
+/* Nos produits */
+#produits {
+  padding-bottom: 80px;
+}
+
+#produits img {
+  margin-top: -70px;
+}
