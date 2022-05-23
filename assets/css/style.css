@@ -1,3 +1,4 @@
+/* Index */
 /* Général */
 body {
   margin: 0;
@@ -59,7 +60,12 @@ h1 {
   margin-top: -70px;
 }
 
+/* Contact */
+#contact-title {
+  padding-top: 10vh;
+}
 /* Media queries */
+/* Index */
 @media screen and (max-width: 1100px) {
   header {
     height: 60vh;
