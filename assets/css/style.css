@@ -12,7 +12,7 @@ body {
 }
 /* Header */
 header {
-    background: url("../img/background_image.jpg");
+    background: url("../img/realisations/background_image.jpg");
     background-size: cover;
     height: 80vh;
 }
@@ -42,7 +42,7 @@ h1 {
     position: 200px;
     height: 400px;
     min-height: 200px;
-    background: url("../img/Parallaxe.jpg");
+    background: url("../img/realisations/Parallaxe.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
@@ -64,4 +64,8 @@ h1 {
 /* Contact */
 #contact-title {
     padding-top: 10vh;
+}
+
+footer {
+    height: auto;
 }
