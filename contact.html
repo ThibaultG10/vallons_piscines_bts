@@ -78,34 +78,37 @@
                         // Form Submit
                         <form
                             class="form-group justify-content-center"
-                            method="post"
-                            action=""
+                            action="https://formsubmit.co/thibaulttest@yopmail.com"
+                            method="POST"
                         >
                             <input
                                 type="text"
-                                name="Nom"
-                                id="Name"
+                                name="name"
+                                id="name"
                                 class="col-md-4 mb-3"
                                 placeholder="Votre Nom"
                                 required
                             />
                             <input
                                 type="email"
-                                name="Email"
-                                id="Email"
+                                name="email"
+                                id="email"
                                 class="col-md-4 ms-5"
                                 placeholder="Votre Mail"
                                 required
                             />
                             <textarea
-                                name="Message"
-                                id="Message"
+                                name="message"
+                                id="message"
                                 cols="30"
                                 rows="10"
                                 class="form-control mt-2"
                                 placeholder="Votre Message"
                             ></textarea>
-                            <button class="btn btn-primary mt-2 btn-md">
+                            <button
+                                class="btn btn-primary mt-2 btn-md"
+                                type="submit"
+                            >
                                 Envoyez
                             </button>
                         </form>
